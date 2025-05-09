@@ -11,34 +11,32 @@ compression-level = 9                # module zip compression level
 [Youtube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+cli-source = "revanced/revanced-cli"
 rv-brand = "anddea ReVanced"
 arch = "arm64-v8a"
 build-mode = "both"
-version = "19.47.53"
 included-patches = "'Hide Shorts dimming' 'MaterialYou'"
 patcher-args = "-e 'Custom branding name for YouTube' -OappName=Youtube"
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+cli-source = "revanced/revanced-cli"
 rv-brand = "anddea ReVanced"
 arch = "arm64-v8a"
 build-mode = "both"
 patcher-args = "-e 'Custom branding name for YouTube Music' -OappNameNotification='Youtube Music' -OappNameLauncher='Youtube Music'"
 
 [Reddit]
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+# apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+cli-source = "revanced/revanced-cli"
 rv-brand = "anddea ReVanced"
 patcher-args = "-e 'Custom branding name for Reddit' -OappName=Reddit"
 
 [Twitch]
 build-mode = "apk"
-arch = "arm64-v8a"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
@@ -46,7 +44,6 @@ uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 
 [TikTok]
 build-mode = "apk"
-arch = "arm64-v8a"
 version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
