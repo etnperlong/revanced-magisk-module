@@ -8,7 +8,10 @@ compression-level = 9                # module zip compression level
 # you can use rvmm-config-gen to generate a config
 
 [Youtube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+version = "auto"
 patches-source = "anddea/revanced-patches"
 cli-source = "revanced/revanced-cli"
 rv-brand = "anddea ReVanced"
@@ -18,7 +21,10 @@ included-patches = "'Hide Shorts dimming' 'MaterialYou'"
 patcher-args = "-e 'Custom branding name for YouTube' -OappName=Youtube"
 
 [Music]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+version = "auto"
 patches-source = "anddea/revanced-patches"
 cli-source = "revanced/revanced-cli"
 rv-brand = "anddea ReVanced"
@@ -28,7 +34,10 @@ included-patches = "'Disable music video in album' 'Hide overlay filter' 'Hide p
 patcher-args = "-e 'Custom branding name for YouTube Music' -OappNameNotification='Youtube Music' -OappNameLauncher='Youtube Music'"
 
 [Reddit]
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
+version = "auto"
 patches-source = "anddea/revanced-patches"
 cli-source = "revanced/revanced-cli"
 rv-brand = "anddea ReVanced"
@@ -44,6 +53,6 @@ uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 [TikTok]
 build-mode = "apk"
 version = "auto"
-apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
 included-patches = "'SIM spoof'"
